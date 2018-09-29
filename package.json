@@ -1,0 +1,34 @@
+{
+  "name": "baucua",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://cuongphuong.github.io/frontend_game_baucua/",
+  "dependencies": {
+    "bootstrap": "^4.1.3",
+    "gh-pages": "^1.2.0",
+    "jquery": "^3.3.1",
+    "lodash": "^4.17.10",
+    "material-ui": "^0.20.2",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
+    "react-redux": "^5.0.7",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "1.1.4",
+    "react-websocket": "^2.0.0",
+    "redux": "^4.0.0",
+    "socket.io-client": "^2.1.1",
+    "sockjs-client": "^1.1.5",
+    "ws": "^6.0.0"
+  },
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "redux-devtools": "^3.4.1"
+  }
+}

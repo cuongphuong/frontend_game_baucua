@@ -1,0 +1,243 @@
+body{
+    background-image: url('http://gipsypixel.com/wp-content/uploads/2018/02/red-dice-background-wallpaper-widescreen-full-hd-pics-of-smartphone-black.jpg');
+    background-color: #777777;
+    user-select: none;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: calc(100vh);
+}
+.login-form {
+    width: 340px;
+    margin: 50px auto;
+}
+.login-form form {
+    margin-bottom: 15px;
+    background: #f7f7f7;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    padding: 30px;
+}
+.login-form h2 {
+    margin: 0 0 15px;
+}
+.form-control, .btn {
+    min-height: 38px;
+    border-radius: 2px;
+}
+.btn {
+    font-size: 15px;
+    font-weight: bold;
+}
+/* -------- */
+
+.banco{
+    padding-top: 120px;
+	user-select: none;
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.line{
+    user-select: none;
+	display : block;
+    width: 100%;
+}
+
+.line > span{
+    width: 33.3%;
+}
+
+.line > span > img{
+    width: 100%;
+}
+
+.co_nai, .co_bau, .co_ga, .co_tom, .co_cua, .co_ca{
+	display: inline-block;
+	background-size: convert;
+	position: relative;
+	cursor: pointer;
+}
+
+.tick-block{
+	position : absolute ;
+	top: 5px;
+	left: 9px;
+}
+
+.tick{
+	height: 35px;
+	width: 35px;
+	line-height: 35px;
+	border-radius: 50%;
+	display: inline-block;
+	text-align: center;
+	color: #fff;
+}
+
+.lacxingau>span:nth-child(3){
+    margin-right: 0px;
+}
+
+.lacxingau > span{
+    margin-right: 5px;
+    display: inline-block;
+    height: 65px;
+    width: 65px;
+}
+
+
+/* ------------------ */
+
+.content_game{
+    position: relative;
+    height: calc(100vh);
+}
+
+.lacxingau{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.messages{
+    margin: 0 auto;
+    max-width: 500px;
+    background: rgba(255, 255, 255 , 0.8);
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+}
+
+.list_mess{
+    width: 100%;
+    min-height: 20px;
+    transition: all 0.2s;
+    overflow: hidden;
+    cursor: move;
+    padding: 0 5px ;
+}
+
+.chat_name{
+    color: blue;
+    font-weight: bold;
+}
+
+.chat_text{
+    color: black;
+}
+
+.input_chat, .submit_chat{
+    display: inline-block;
+    height: 50px;
+    border: none;
+}
+
+.input_chat{
+    width: 79%;
+}
+
+.submit_chat{
+    width: 20%;
+    float: right;
+}
+
+.show_chat{
+    height: 20px;
+    width: 100%;
+    font-size: 15px;
+    background: rgba(0, 0, 0, 0.2)
+}
+
+.content_avatar{
+    position: absolute;
+    top: 10px;
+    left: 0px;
+    right: 0px;
+    /* overflow-y: hidden; */
+}
+
+.avatar_uer{
+    display: inline-block;
+    height: 65px;
+    width: 65px;
+    border-radius: 50%;
+    border: solid 2px #fff;
+    margin-right: 5%;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+}
+
+.avatar_uer > p{
+    width: 130%;
+    left: -15%;
+    bottom: -65%;
+    overflow: hidden;
+    position: absolute;
+    color: #fff;
+    font-weight: bold
+}
+
+.avatar_uer_color{
+    position: absolute;
+    top: -5px;
+    right: 35%;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+
+.avatar_uer > p:nth-child(2){
+    bottom: -90%;
+}
+
+.avatar_uer > p:nth-child(3){
+    animation: aminationAddCredit 5s;
+    color: red;
+    opacity: 0;
+}
+
+.avatar_uer:nth-last-child(1){
+    margin-right: 0;
+}
+
+.playgame{
+    width: 100%;
+    position: absolute;
+    top: 60%;
+    right: 0;
+    left: 0;
+    display: block;
+    text-align: center;
+    cursor: pointer;
+}
+
+.playgame > img{
+    width: 20%;
+}
+
+.logout{
+    position: absolute;
+    right: 1px;
+    top: 16.5px;
+}
+
+@keyframes aminationAddCredit {
+    0% { bottom: -110%; opacity: 1; }
+    80% { opacity: 1; }
+    100% { bottom: 10%; opacity: 0; }
+}
+
+.btn_logout {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 6.5px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
